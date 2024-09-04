@@ -1,3 +1,5 @@
+# Config environment to support embedded rust
+```
 rustup target add thumbv7em-none-eabihf
 rustup component add rust-analyzer
 rustup component add llvm-tools
@@ -6,3 +8,4 @@ cargo size -- -Ax
 sudo cp 69-probe-rs.rules /etc/udev/rules.d/
 sudo udevadm control --reload
 sudo udevadm trigger
+```
