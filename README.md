@@ -7,7 +7,6 @@ cargo install cargo-binutils
 cargo size -- -Ax
 ```
 
-
 # Update linux to support flashing firmware
 https://probe.rs/docs/getting-started/probe-setup/#linux%3A-udev-rules
 ```
